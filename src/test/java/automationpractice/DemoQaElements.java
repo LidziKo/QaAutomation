@@ -8,10 +8,9 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class DemoQaElements extends WebDriverSettingsAP{
+public class DemoQaElements extends WebDriverSettingsAP {
 
     @Test
-
     public void testTextBox() {
         goToElements();
         enterFullName("Lidzi");
@@ -20,6 +19,5 @@ public class DemoQaElements extends WebDriverSettingsAP{
         enterPermanentAddress("blablabla");
 
     }
-
 
 }

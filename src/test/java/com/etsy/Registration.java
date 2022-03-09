@@ -40,7 +40,7 @@ public class Registration extends WebDriverSettingsEtsy {
         Thread.sleep(10000);
         registerButton.click();
 
-        Thread.sleep(10000);    
+        Thread.sleep(10000);
 
 
     }

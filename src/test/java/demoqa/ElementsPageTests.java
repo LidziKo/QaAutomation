@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class ElementsPageTests extends ElementsPage{
+public class ElementsPageTests extends ElementsPage {
 
     @Test
     public void enterCorrectDataInTextBox() {

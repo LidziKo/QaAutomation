@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class ElementsPage extends SettingsWebDriver{
+public class ElementsPage extends SettingsWebDriver {
 
     void goToElementsPage() {
         driver.get("https://demoqa.com/");
@@ -21,7 +21,7 @@ public class ElementsPage extends SettingsWebDriver{
         //wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("[class=\"wmx4 ta-center fs-title mx-auto mb24\"]")));
     }
 
-    void goToTextBoxTab () {
+    void goToTextBoxTab() {
         goToElementsPage();
         WebElement textBoxTab = driver.findElement(By.id("item-0"));
         textBoxTab.click();

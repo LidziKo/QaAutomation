@@ -3,6 +3,7 @@ package com.stackOverFlow;
 import org.junit.After;
 import org.junit.Before;
 import org.openqa.selenium.chrome.ChromeDriver;
+
 import java.util.Random;
 
 public class WebDriverSettings {

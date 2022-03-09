@@ -10,9 +10,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 
-public class MainPage extends WebDriverSettingsAP{
+public class MainPage extends WebDriverSettingsAP {
     @Test
-    public void openMainPage(){
+    public void openMainPage() {
         driver.get("http://automationpractice.com//");
         String title = driver.getTitle();
         Assert.assertEquals("My Store", title);
@@ -20,7 +20,7 @@ public class MainPage extends WebDriverSettingsAP{
     }
 
     @Test
-    public void openContactUsPage(){
+    public void openContactUsPage() {
         driver.get("http://automationpractice.com//");
         WebElement contactUsButton = driver.findElement(By.cssSelector("[title=\"Contact Us\"]"));
         contactUsButton.click();
@@ -29,7 +29,7 @@ public class MainPage extends WebDriverSettingsAP{
     }
 
     @Test
-    public void openSignInPage(){
+    public void openSignInPage() {
         driver.get("http://automationpractice.com//");
         WebElement signInButton = driver.findElement(By.cssSelector("[class=\"login\"]"));
         signInButton.click();
@@ -56,5 +56,4 @@ public class MainPage extends WebDriverSettingsAP{
         driver.navigate().refresh();
 
     }
-
 }
